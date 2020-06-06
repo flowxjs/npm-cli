@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const argv = process.argv.slice(2);
+const action = argv[0];
+
+const extendActions = {
+  registry: true,
+}
+
+if (extendActions[action]) {
+  require('../lib/npm-' + action);
+} else {
+  require('../lib/npm');
+}
