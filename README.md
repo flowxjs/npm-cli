@@ -13,3 +13,14 @@ $ npm i -g @flowx/npm-cli
 ```bash
 $ npc registry [-d|--delete]
 ```
+
+### Connect with NPC
+
+```bash
+$ npm i -g @flowx/npm-cli
+$ npc r
+# type the registry url and select yes to confirm
+$ npc setup
+# test:
+$ npc view react
+```
