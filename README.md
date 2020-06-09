@@ -24,3 +24,11 @@ $ npc setup
 # test:
 $ npc view react
 ```
+
+### Choose Installer Mode
+
+```bash
+$ npc use
+```
+
+你可以选择使用`npm`或者`npminstall`模式来安装模块。默认选择`npm`。
