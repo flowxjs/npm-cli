@@ -20,7 +20,6 @@ $ npc registry [-d|--delete]
 $ npm i -g @flowx/npm-cli
 $ npc r
 # type the registry url and select yes to confirm
-# $ npc setup
 # test:
 $ npc view react
 ```
