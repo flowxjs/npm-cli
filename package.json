@@ -1,6 +1,6 @@
 {
   "name": "@flowx/npm-cli",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "",
   "bin": {
     "npc": "./lib/index.js"
